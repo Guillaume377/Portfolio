@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&family=Signika:wght@600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="images/Logo GhoSt DW onglet.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio CSS</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <!-- icône hamburger -->
+                <i id="hamburger" class="fa-solid fa-bars fa-2x" onclick="showOrHideLinks()"></i>
+
+                <!--Prénom Nom-->
+                <img src="images/Logo GhoSt DW.jpg" alt="">
+            </div>
+
+            <!--liste des liens-->
+            <ul id="menu">
+                <li><a href="#quisuisje">Qui suis-je ?</a></li>
+                <li><a href="#compétences">Compétences</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#réalisations">Réalisations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Bienvenue, je suis Guillaume</h1>
+
+        <!--Mes infos-->
+
+        <section id="quisuisje">
+
+            <div class="intro">
+
+                <h2>Qui suis-je ?</h2>
+
+                <p>Bonjour, je suis Guillaume STEPHAN. Je suis Développeur Web junior à la recherche d'une entreprise
+                    pour
+                    un
+                    stage de 4 semaines.</p>
+                <p>J'ai un parcours professionnel riche : grande distribution, militaire dans la
+                    Marine
+                    Nationale, et 14 ans en tant que téléconseiller (en assurance et surtout à la sécurité sociale),
+                    j'ai
+                    décidé
+                    de me reconvertir. En effet, mes différentes missions telles que la mise en place d'un site internet
+                    et
+                    d'un
+                    Chatbot m'ont donné envie de travailler dans l'informatique. </p>
+
+                <p>Passionné de jeux vidéos depuis l'enfance et de l'internet depuis longtemps, je souhaite découvrir
+                    leurs
+                    secrets de fabrication.</p>
+
+                <div class="boutonvert">
+                    <a href="./CV.pdf"><button class="bouton">Mon CV</button></a>
+
+                    <a href="#contact"><button class="bouton">Contact</button></a>
+                </div>
+            </div>
+
+            <img src="images/myAvatar_4.png" alt="">
+
+        </section>
+
+        <!-- Mes compétences-->
+
+        <section id="compétences">
+
+            <h2>Compétences</h2>
+
+            <ul id="savoirfaire">
+                <li>
+                    <div class="bloc-compétences"><img src="images/undraw_Chat_re_re1u (1).png" alt=""></div>
+                    <p>Chatbot</p>
+                </li>
+
+                <li>
+                    <div class="bloc-compétences"><img src="images/undraw_Responsive_re_e1nn (1).png" alt=""></div>
+                    <p> Responsive</p>
+                </li>
+                <li>
+                    <div class="bloc-compétences"><img src="images/undraw_Scrum_board_re_wk7v (1).png" alt=""></div>
+                    <p>Méthode agile</p>
+                </li>
+                <li>
+                    <div class="bloc-compétences"><img src="images/undraw_Static_website_re_x70h.png" alt=""></div>
+                    <p>Base de données</p>
+                </li>
+                <li>
+                    <div class="bloc-compétences"><img src="images/undraw_Web_devices_re_m8sc (1).png" alt=""></div>
+                    <p>Site Web</p>
+                </li>
+                <li>
+                    <div class="bloc-compétences"><img src="images/undraw_Working_re_ddwy.png" alt=""></div>
+                    <p>Travail en équipe</p>
+                </li>
+            </ul>
+
+        </section>
+
+        <!-- Technologies -->
+
+        <section id="technologies">
+
+            <h2>Technologies</h2>
+
+            <ul id="techno">
+                <div>
+                    <li class="vert"><i class="fa-brands fa-html5 fa-beat"></i></li>
+                </div>
+                <div>
+                    <li class="noir"><i class="fa-brands fa-css3-alt fa-fade"></i></li>
+                </div>
+                <div>
+                    <li class="vert"><i class="fa-brands fa-bootstrap fa-beat"></i></li>
+                </div>
+            </ul>
+
+            <ul id="techno">
+                <div class="php">
+                    <li class="noir"><i class="fa-brands fa-wordpress fa-fade"></i></li>
+                </div>
+                <div>
+                    <li class="vert"><i class="fa-brands fa-js fa-beat"></i></li>
+                </div>
+                <div>
+                    <li class="noir"><i class="fa-brands fa-php fa-fade"></i></li>
+                </div>
+            </ul>
+        </section>
+
+        <!-- Réalisations -->
+
+        <section id="réalisations">
+
+            <h2>Réalisations</h2>
+
+            <ul>
+                <li>
+                    <div class="projet"><img src="images/navbar.png" alt=""></div>
+                    <p>Navbar</p>
+                </li>
+                <li>
+                    <div class="projet"><img src="images/carte de visite.png" alt=""></div>
+                    <p>Carte de visite</p>
+                </li>
+                <li>
+                    <div class="projet"><img src="images/kome waza.png" alt=""></div>
+                    <p>Kome Waza</p>
+                </li>
+            </ul>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <!-- Contact -->
+
+        <section id="contact">
+
+            <h2>Contact</h2>
+
+            <ul>
+                <li>
+                    <div class="adresse"><i class="fa-solid fa-map-location-dot fa-flip"></i>17700 ST PIERRE LA NOUE
+                    </div>
+                </li>
+                <li>
+                    <div class="adresse"><i class="fa-regular fa-at fa-bounce"></i><a
+                            href="mailto:guillaumestephan@live.fr">guillaumestephan@live.fr</a></div>
+                </li>
+                <li>
+                    <div class="adresse"><i class="fa-solid fa-mobile-screen fa-shake"></i>06.64.14.26.27</div>
+                </li>
+            </ul>
+
+
+        </section>
+    </footer>
+
+    <script type="text/javascript">
+
+        function showOrHideLinks() {
+
+            // je cible la liste des liens et ja le stocke dans une variable (+ lisible)
+            const navlinks = document.getElementById('menu')
+
+            // La propriété display de la liste des liens est sur none ? Je l'affiche. Sinon : je la masque
+            if (navlinks.style.display == 'none') {
+                navlinks.style.display = 'block'
+                navlinks.style.display = 'flex'
+            } else {
+                navlinks.style.display = 'none'
+            }
+        }
+
+    </script>
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>

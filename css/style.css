@@ -1,0 +1,387 @@
+body {
+
+    text-decoration-color: #55b0ad;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #55b0ad;
+}
+
+/* **********************navbar*********************** */
+#hamburger {
+    visibility: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 100vw;
+    background-color: #2C3C4B;
+}
+
+ul {
+    display: flex;
+}
+
+#menu {
+    list-style-type: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#menu a {
+    padding: 0 10px;
+
+}
+
+/* ************************titre 1***************** */
+
+h1 {
+
+    font-family: 'Press Start 2P', cursive;
+    color: #2C3C4B;
+    height: 100px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+/* ************************mes infos************** */
+h2 {
+
+    font-family: 'Press Start 2P', cursive;
+    color: #55b0ad;
+    text-align: center;
+}
+
+#quisuisje {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/MWoO1vF.jpg);
+    width: 100vw;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    margin-bottom: 50px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+
+}
+
+.intro h2 {
+    color: white;
+}
+
+
+.intro p {
+    text-justify: inter-word;
+    text-align: justify;
+    font-size: larger;
+}
+
+#quisuisje img {
+    width: 30vw;
+
+}
+
+.boutonvert {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+
+}
+
+.bouton {
+    background-color: #55b0ad;
+    color: white;
+    width: 300px;
+    height: 80px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    border-radius: 25px;
+
+}
+
+/* *****************mes compétences************* */
+
+#compétences h2 {
+    padding-top: 50px;
+    color: #2C3C4B;
+}
+
+#savoirfaire {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#compétences ul li {
+    border: #2C3C4B 1px solid;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: #2C3C4B
+}
+
+
+#compétences img {
+    width: 25vw;
+}
+
+.bloc-compétences {
+    height: 40vh;
+}
+
+/* *****************technologies*************** */
+
+#techno {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+
+#technologies h2 {
+    height: 10vh;
+    color: #2c3c4b;
+}
+
+#techno li i {
+    font-size: 900%;
+    height: 20vh;
+    margin: 0 10px;
+}
+
+#techno .vert {
+    color: #55b0ad;
+}
+
+#techno .noir {
+    color: #2C3C4B;
+}
+
+
+
+/* *****************réalisations***************** */
+
+
+#réalisations h2 {
+    color: #2C3C4B;
+}
+
+#réalisations ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+
+#réalisations ul li {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border: #2C3C4B 1px solid;
+    margin: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: #2C3C4B
+}
+
+#réalisations ul li img {
+    width: 25vw;
+
+}
+
+
+/* *******************Contact******************* */
+
+footer {
+    background-color: #2C3C4B;
+
+}
+
+h2 {
+    padding: 60px 0;
+}
+
+#contact ul {
+    padding-bottom: 70px;
+}
+
+
+#contact ul li {
+    border: #55b0ad 10px solid;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: 'Press Start 2P', cursive;
+    color: #55b0ad;
+    width: 100vw;
+
+}
+
+.adresse {
+    display: flex;
+    flex-direction: column;
+}
+
+.adresse i {
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+
+/* ******************media queries téléphone + tablette*************** */
+@media screen and (max-width: 1024px) {
+    body {
+        margin-top: 100px;
+    }
+
+    nav {
+        justify-content: flex-start;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    nav div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+    }
+
+    #hamburger {
+        padding-left: 40px;
+        visibility: visible !important;
+        color: #55b0ad;
+
+    }
+
+    #menu {
+        display: none;
+        background-color: #2C3C4B;
+        width: 100vw;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    #menu li {
+        padding: 15px;
+    }
+
+    h1 {
+        margin-top: 200px;
+        margin: auto;
+    }
+
+
+    #quisuisje {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #quisuisje img {
+        width: 40vw;
+    }
+
+    .bloc-compétences {
+        height: auto;
+    }
+}
+
+
+
+
+/* *******************media queries téléphone********** */
+
+@media screen and (max-width: 768px) {
+
+    #hamburger {
+        right: 20px;
+
+    }
+
+    .intro {
+        width: 70vw
+    }
+
+    #quisuisje {
+        align-items: center;
+    }
+
+    #quisuisje img {
+        width: 50vw;
+    }
+
+
+    .boutonvert {
+        flex-direction: column;
+    }
+
+    #savoirfaire {
+        padding: 0;
+    }
+
+    #savoirfaire img {
+        width: 50vw;
+    }
+
+    .bloc-compétences {
+        width: 80vw;
+
+    }
+
+    #réalisations ul {
+        flex-direction: column;
+        padding: 0;
+
+    }
+
+    #réalisations ul li img {
+        width: 85vw;
+    }
+
+
+    #contact ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        padding: 0;
+
+    }
+
+    #contact ul li {
+        width: 40vw;
+
+
+    }
+
+    .adresse {
+        text-align: center;
+        font-size: xx-small
+    }
+}
